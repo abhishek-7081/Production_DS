@@ -1,4 +1,4 @@
-package Insertion_Sort;
+package Sorting.Insertion_Sort;
 
 import java.sql.Time;
 

@@ -1,4 +1,4 @@
-package Selection_Sort;
+package Sorting.Selection_Sort;
 
 public class ss_1 {
     

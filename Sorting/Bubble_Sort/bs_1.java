@@ -1,3 +1,6 @@
+package Sorting.Bubble_Sort;
+
+
 public class bs_1 {
     public static void printArray(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
