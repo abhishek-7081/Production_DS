@@ -1,7 +1,5 @@
 package Sorting.Insertion_Sort;
 
-import java.sql.Time;
-
 public class is_1 {
     public static void printArray(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
