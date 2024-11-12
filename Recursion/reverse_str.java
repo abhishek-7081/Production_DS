@@ -1,5 +1,7 @@
 package Recursion;
 
+// time complexity = 0(n)
+
 public class reverse_str {
     public static void printrev(String str, int idx) {
         if (idx==0) {

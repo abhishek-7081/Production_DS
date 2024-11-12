@@ -1,5 +1,5 @@
 package Recursion;
-
+// time complexity=O(n^2)-1 i.e. = O(n^2)
 public class tower_of_hanoi {
     public static void towerofhanoi(int n , String src, String helper, String dest) {
         if (n==1) {
