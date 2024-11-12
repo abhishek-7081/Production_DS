@@ -24,7 +24,6 @@ public class bs_1 {
                     arr[j + 1] = temp;
                 }
             }
-
         }
         printArray(arr);
     }

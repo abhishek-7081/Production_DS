@@ -28,7 +28,7 @@ public class r4_fibonacci {
     }
 
 
-    
+
     // sum of fibonacci no
 
     // public static int fib(int a){

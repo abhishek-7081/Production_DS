@@ -2,7 +2,7 @@ package Recursion;
 
 public class r1 {
 
-    // pritning 10 to 1 and 10 to 20
+    // printing 10 to 1 and 10 to 20
     
     public static void intnodec(int no) {
         // Base condition
