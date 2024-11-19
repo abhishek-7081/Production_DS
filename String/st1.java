@@ -1,7 +1,7 @@
-package String;
+// package String;
 
 import java.util.Scanner;
-
+        // ALWAYS REMEMBER : Java Strings are Immutable. 
 public class st1 {
     public static void main(String[] args) {
         Scanner sb = new Scanner(System.in);

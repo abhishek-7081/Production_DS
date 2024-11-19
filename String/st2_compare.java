@@ -1,4 +1,4 @@
-package String;
+// package String;
 
 import java.io.StreamCorruptedException;
 import java.util.Scanner;
