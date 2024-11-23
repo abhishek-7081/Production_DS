@@ -1,5 +1,6 @@
 package Stack;
-import java.util.*;
+
+import java.util.Stack;
 
 public class sta3_cla_famework {
     public static void main(String[] args) {
@@ -10,5 +11,5 @@ public class sta3_cla_famework {
         s.push(4);
         s.push(5);
         System.out.println("Stack: " + s);
-        }
+    }
 }
