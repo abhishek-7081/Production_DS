@@ -6,7 +6,7 @@ public class ll2_node_insertion_remove {
 
     private int size;
 
-    //constructor 
+    // constructor
     ll2_node_insertion_remove() {
         size = 0;
     }
@@ -107,6 +107,29 @@ public class ll2_node_insertion_remove {
         return size;
     }
 
+    // reversing Linked List using while loop
+
+    public void reverseItrate() {
+        if (head == null || head.next == null) {
+            return;
+
+        }
+        Node prevNode = head;
+        Node currentNode = head.next;
+        while (currentNode != null) {
+            Node nextNode = currentNode.next;
+            currentNode.next = prevNode;
+
+            // update
+            prevNode = currentNode;
+            currentNode = nextNode;
+
+        }
+        head.next = null;
+        head = prevNode;
+
+    }
+
     // main function calling
     public static void main(String args[]) {
         ll2_node_insertion_remove list = new ll2_node_insertion_remove();
@@ -119,10 +142,12 @@ public class ll2_node_insertion_remove {
         list.printList();
         System.out.println(list.getSize());
 
-        list.removeFirst();
-        list.printList();
+        // list.removeFirst();
+        // list.printList();
 
-        list.removeLast();
+        // list.removeLast();
+        // list.printList();
+        list.reverseItrate();
         list.printList();
     }
 
