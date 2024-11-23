@@ -130,6 +130,20 @@ public class ll2_node_insertion_remove {
 
     }
 
+    // reversing Linked List using Recursion
+
+    public Node reverseRecursion(Node head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        Node newHead = reverseRecursion(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newHead;
+
+    }
+
     // main function calling
     public static void main(String args[]) {
         ll2_node_insertion_remove list = new ll2_node_insertion_remove();
@@ -147,7 +161,11 @@ public class ll2_node_insertion_remove {
 
         // list.removeLast();
         // list.printList();
+
         list.reverseItrate();
+        list.printList();
+
+        list.head=list.reverseRecursion(list.head);
         list.printList();
     }
 
