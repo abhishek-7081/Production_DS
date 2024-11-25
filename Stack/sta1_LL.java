@@ -60,7 +60,7 @@ public class sta1_LL {
             return head.data;
         }
     }
-
+    // Main function 
     public static void main(String[] args) {
         Stack.puck(1);
         Stack.puck(2);
