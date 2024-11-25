@@ -35,7 +35,8 @@ public class sta2_AL {
             return top;
         }
     }
-
+    
+// Main Function calling
     public static void main(String[] args) {
         Stack.push(1);
         Stack.push(2);
