@@ -1,9 +1,19 @@
 # DSA
 
-Array
-Arraylist
-Linked List
-Recursion 
+## Arrays
+
+- `ar1.java` take an array as an input from the user . Search for the given no x and print the index at which it occurs . 
+- `2d_array_in out` creating 2d array and in and out operation in it 
+- `2d_ar_find_x.java`  finding x in array 
+
+## ArrayList
+- `arli.java` BAsic of Arraylist Creation 
+
+## LinkedList
+-
+
+
+
 
 
 # DSA
