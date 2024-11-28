@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class st2_compare {
     public static void main(String[] args) {
         Scanner ab = new Scanner(System.in);
-        System.out.println("Enter the first string");
+        System.out.println("Enter the first string ");
         String a = ab.nextLine();
-        System.out.println("Enter the second string");
+        System.out.println("Enter the second string ");
         String b = ab.nextLine();
 
         // if (a==b) {

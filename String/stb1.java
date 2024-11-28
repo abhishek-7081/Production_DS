@@ -21,7 +21,7 @@ public class stb1 {
             sb.setCharAt(back, frontChar);
 
         }
-        System.out.println("REversed String = " + sb);
+        System.out.println("Reversed String = " + sb);
     }
 
 }
