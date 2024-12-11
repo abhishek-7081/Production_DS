@@ -24,5 +24,7 @@ public class _2d_array_in_out_ {
             }
             System.out.println();
         }
+        sc.close();
     }
+
 }

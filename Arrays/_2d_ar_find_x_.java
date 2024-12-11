@@ -31,7 +31,7 @@ public class _2d_ar_find_x_ {
             }
 
         }
-
+sc.close();
     //     boolean found = false; // Flag to track if the number is found
 
     //     for (int i = 0; i < rows; i++) {
