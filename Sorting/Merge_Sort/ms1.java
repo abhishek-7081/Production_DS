@@ -38,6 +38,7 @@ public class ms1 {
         conquer(arr, si, mid, ei);
 
     }
+    
 
 
     public static void main(String[] args) {
