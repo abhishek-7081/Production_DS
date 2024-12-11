@@ -14,6 +14,6 @@ public class st1 {
         for (int i = 0; i < s.length(); i++) {
             System.out.println(s.charAt(i));
         }
-
+sb.close();
     }
 }

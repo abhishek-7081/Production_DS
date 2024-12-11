@@ -22,6 +22,7 @@ public class ar1 {
             System.out.println("X found at index : "+i);
          }   
         }
+        sc.close();
 
     }
 }

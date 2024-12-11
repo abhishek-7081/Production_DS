@@ -3,7 +3,7 @@ package Sorting.Merge_Sort;
 public class ms1 {
     // divide and conquer
 public static void conquer(int arr[], int si, int mid, int ei) {
-    int merged[] = new int[ei-si+1];
+    // int merged[] = new int[ei-si+1];
 
     // neither completed nor understanded 
     
