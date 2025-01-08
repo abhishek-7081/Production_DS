@@ -3,6 +3,8 @@ import java.util.Queue;
 
 public class bt_1 {
 
+    
+    //node construction
     static class Node {
         int data;
         Node left;
@@ -16,6 +18,7 @@ public class bt_1 {
 
     }
 
+    //tree construction
     public static class BinaryTree {
         static int idx = -1;
 
