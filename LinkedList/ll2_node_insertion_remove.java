@@ -1,5 +1,7 @@
 package LinkedList;
 
+// Singly linked list
+
 public class ll2_node_insertion_remove {
 
     Node head;
@@ -10,6 +12,8 @@ public class ll2_node_insertion_remove {
     ll2_node_insertion_remove() {
         size = 0;
     }
+
+    // Singly linked list
 
     // making node
     class Node {
@@ -165,7 +169,7 @@ public class ll2_node_insertion_remove {
         list.reverseItrate();
         list.printList();
 
-        list.head=list.reverseRecursion(list.head);
+        list.head = list.reverseRecursion(list.head);
         list.printList();
     }
 
